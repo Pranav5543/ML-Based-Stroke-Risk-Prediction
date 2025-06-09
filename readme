@@ -1,1 +1,67 @@
 
+ML-Based Stroke Risk Prediction
+📝 Project Overview
+This project focuses on building a machine learning model to predict the presence of heart disease in patients based on a variety of medical attributes. The goal is to enable early detection and timely medical intervention, thus improving patient outcomes and optimizing healthcare resources.
+
+📌 Objective
+To develop an ML model that can accurately predict heart disease risk.
+
+Use data preprocessing and logistic regression techniques.
+
+Evaluate model performance and interpret predictions.
+
+📊 Dataset
+Source: UCI Machine Learning Repository
+
+Description: The dataset includes several medical features such as age, sex, chest pain type, resting blood pressure, cholesterol levels, and more, with a target variable indicating the presence of heart disease.
+
+🛠️ Tech Stack
+Programming Language: Python
+
+IDE: Jupyter Notebook
+
+Libraries Used:
+
+numpy – for numerical operations
+
+pandas – for data manipulation and analysis
+
+matplotlib & seaborn – for data visualization
+
+scikit-learn – for ML modeling (train/test split, logistic regression, evaluation)
+
+📌 Process Workflow
+Data Loading & Exploration
+
+Load dataset using pandas.
+
+Understand features and target variable.
+
+Check for missing values and perform exploratory data analysis.
+
+Data Preprocessing
+
+Handle null values if any.
+
+Convert categorical variables if needed.
+
+Normalize or standardize data if required.
+
+Model Development
+
+Split the dataset into training and test sets using train_test_split.
+
+Build a Logistic Regression model using sklearn.linear_model.
+
+Train the model and make predictions.
+
+Model Evaluation
+
+Use metrics like accuracy, precision, recall, F1-score, confusion matrix.
+
+Interpret the results to assess model performance.
+
+✅ Results
+The logistic regression model showed promising results in classifying patients with and without heart disease.
+
+Evaluation metrics were used to validate the model's accuracy and reliability.
